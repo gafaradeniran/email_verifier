@@ -46,6 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
             builder: (context) => VerificationScreen(
                   verifyModel: modelData!,
                 ));
+                
       });
     } on SocketException catch (e) {
       return e.toString();
